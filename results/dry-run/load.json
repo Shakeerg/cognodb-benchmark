@@ -1,0 +1,11 @@
+[
+  {
+    "platform": "cognodb",
+    "nodesLoaded": 80701,
+    "edgesLoaded": 200000,
+    "wallClockMs": 171,
+    "nodesPerSec": 470803,
+    "edgesPerSec": 1166784,
+    "errors": []
+  }
+]

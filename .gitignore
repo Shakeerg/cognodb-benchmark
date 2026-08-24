@@ -1,0 +1,12 @@
+.env
+node_modules/
+dist/
+*.log
+
+# Raw dataset can be large — document source in README instead of committing it.
+# Keep small derived samples if needed for reproducibility, but not multi-hundred-MB raw dumps.
+data/raw/
+data/*.csv
+
+# Keep results — they're part of the deliverable — but ignore any scratch output.
+results/tmp/

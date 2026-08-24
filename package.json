@@ -1,0 +1,32 @@
+{
+  "name": "cognodb-benchmark",
+  "version": "1.0.0",
+  "description": "Reproducible benchmark suite comparing CognoDB Cloud against other managed graph database platforms.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "prepare:dataset": "tsx scripts/prepare-dataset.ts",
+    "load": "tsx scripts/run-load.ts",
+    "bench": "tsx scripts/run-benchmark.ts",
+    "report": "tsx scripts/generate-report.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "arangojs": "^9.0.0",
+    "cli-progress": "^3.12.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "gremlin": "^3.6.5",
+    "neo4j-driver": "^5.24.0"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.5",
+    "@types/gremlin": "^3.6.6",
+    "@types/node": "^20.14.15",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
+  }
+}

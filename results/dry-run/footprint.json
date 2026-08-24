@@ -1,0 +1,8 @@
+[
+  {
+    "platform": "cognodb",
+    "observable": true,
+    "storedDataSizeMb": 121.05,
+    "note": "estimated from in-memory Map size — dry-run only, not a real footprint metric"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "platform": "arangodb",
+    "nodesLoaded": 80701,
+    "edgesLoaded": 200000,
+    "wallClockMs": 40269,
+    "nodesPerSec": 2004,
+    "edgesPerSec": 4967,
+    "errors": []
+  },
+  {
+    "platform": "memgraph",
+    "nodesLoaded": 80701,
+    "edgesLoaded": 200000,
+    "wallClockMs": 37040,
+    "nodesPerSec": 2179,
+    "edgesPerSec": 5400,
+    "errors": []
+  },
+  {
+    "platform": "janusgraph",
+    "nodesLoaded": 0,
+    "edgesLoaded": 0,
+    "wallClockMs": 0,
+    "nodesPerSec": 0,
+    "edgesPerSec": 0,
+    "errors": [
+      "connection/load failure: Server error: A timeout occurred during traversal evaluation of [RequestMessage{, requestId=51b61b0b-6c32-4090-9db6-fabeb97f05bb, op='bytecode', processor='traversal', args={gremlin=[[], [V(), drop(), none()]], aliases={g=g}}}] - consider increasing the limit given to evaluationTimeout (598)"
+    ]
+  }
+]

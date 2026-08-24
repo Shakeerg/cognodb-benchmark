@@ -1,0 +1,122 @@
+[
+  {
+    "platform": "cognodb",
+    "concurrency": 1,
+    "readWriteMix": "80/20",
+    "durationSec": 30,
+    "totalOps": 123,
+    "throughputQps": 4,
+    "errorCount": 0,
+    "errorRate": 0
+  },
+  {
+    "platform": "cognodb",
+    "concurrency": 10,
+    "readWriteMix": "80/20",
+    "durationSec": 30.23,
+    "totalOps": 1220,
+    "throughputQps": 40,
+    "errorCount": 0,
+    "errorRate": 0
+  },
+  {
+    "platform": "cognodb",
+    "concurrency": 40,
+    "readWriteMix": "80/20",
+    "durationSec": 30.23,
+    "totalOps": 4665,
+    "throughputQps": 154,
+    "errorCount": 0,
+    "errorRate": 0
+  },
+  {
+    "platform": "neo4j_aura",
+    "concurrency": 1,
+    "readWriteMix": "80/20",
+    "durationSec": 30.09,
+    "totalOps": 320,
+    "throughputQps": 11,
+    "errorCount": 0,
+    "errorRate": 0
+  },
+  {
+    "platform": "neo4j_aura",
+    "concurrency": 10,
+    "readWriteMix": "80/20",
+    "durationSec": 30.08,
+    "totalOps": 3153,
+    "throughputQps": 105,
+    "errorCount": 0,
+    "errorRate": 0
+  },
+  {
+    "platform": "neo4j_aura",
+    "concurrency": 40,
+    "readWriteMix": "80/20",
+    "durationSec": 30.1,
+    "totalOps": 8554,
+    "throughputQps": 284,
+    "errorCount": 0,
+    "errorRate": 0
+  },
+  {
+    "platform": "memgraph",
+    "concurrency": 1,
+    "readWriteMix": "80/20",
+    "durationSec": 30,
+    "totalOps": 18084,
+    "throughputQps": 603,
+    "errorCount": 0,
+    "errorRate": 0
+  },
+  {
+    "platform": "memgraph",
+    "concurrency": 10,
+    "readWriteMix": "80/20",
+    "durationSec": 30,
+    "totalOps": 40073,
+    "throughputQps": 1336,
+    "errorCount": 0,
+    "errorRate": 0
+  },
+  {
+    "platform": "memgraph",
+    "concurrency": 40,
+    "readWriteMix": "80/20",
+    "durationSec": 30,
+    "totalOps": 41827,
+    "throughputQps": 1394,
+    "errorCount": 0,
+    "errorRate": 0
+  },
+  {
+    "platform": "arangodb",
+    "concurrency": 1,
+    "readWriteMix": "80/20",
+    "durationSec": 30,
+    "totalOps": 24625,
+    "throughputQps": 821,
+    "errorCount": 0,
+    "errorRate": 0
+  },
+  {
+    "platform": "arangodb",
+    "concurrency": 10,
+    "readWriteMix": "80/20",
+    "durationSec": 30,
+    "totalOps": 49197,
+    "throughputQps": 1640,
+    "errorCount": 0,
+    "errorRate": 0
+  },
+  {
+    "platform": "arangodb",
+    "concurrency": 40,
+    "readWriteMix": "80/20",
+    "durationSec": 56.56,
+    "totalOps": 23190,
+    "throughputQps": 410,
+    "errorCount": 0,
+    "errorRate": 0
+  }
+]

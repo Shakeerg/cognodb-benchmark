@@ -1,0 +1,12 @@
+[
+  {
+    "platform": "cognodb",
+    "concurrency": 5,
+    "readWriteMix": "80/20",
+    "durationSec": 2.01,
+    "totalOps": 690,
+    "throughputQps": 344,
+    "errorCount": 0,
+    "errorRate": 0
+  }
+]

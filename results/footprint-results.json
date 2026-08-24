@@ -1,0 +1,23 @@
+[
+  {
+    "platform": "cognodb",
+    "observable": false,
+    "note": "Bolt protocol does not expose storage/memory metrics on the free tier for this platform; see console UI where available."
+  },
+  {
+    "platform": "neo4j_aura",
+    "observable": false,
+    "note": "Bolt protocol does not expose storage/memory metrics on the free tier for this platform; see console UI where available."
+  },
+  {
+    "platform": "memgraph",
+    "observable": false,
+    "note": "Bolt protocol does not expose storage/memory metrics on the free tier for this platform; see console UI where available."
+  },
+  {
+    "platform": "arangodb",
+    "storedDataSizeMb": 5.9,
+    "observable": true,
+    "note": "collection.figures() on node collection; edge collection size not included"
+  }
+]

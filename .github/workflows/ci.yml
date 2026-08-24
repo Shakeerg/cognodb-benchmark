@@ -1,0 +1,43 @@
+name: CI
+
+# Runs on every push/PR. Deliberately does NOT try to hit real database
+# platforms in CI (no cloud credentials live here, and free-tier accounts
+# aren't CI-safe secrets to share) — instead it verifies the two things that
+# matter for someone evaluating this repo without any account setup:
+#   1. the code typechecks cleanly
+#   2. the full harness pipeline actually runs end-to-end against the
+#      in-memory fake client (scripts/dry-run.ts) — proving the load runner,
+#      workload timing, percentile math, and mixed-workload concurrency logic
+#      are all mechanically correct before anyone spends time provisioning
+#      five separate cloud accounts.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  typecheck-and-dry-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Prepare synthetic dataset (no external network required)
+        run: npx tsx scripts/prepare-dataset.ts
+
+      - name: Dry-run full harness pipeline against in-memory fake client
+        run: npx tsx scripts/dry-run.ts
+
+      - name: Generate report (dataset section only, no live results expected)
+        run: npm run report

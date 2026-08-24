@@ -1,0 +1,7 @@
+{
+  "source": "SNAP soc-Pokec (https://snap.stanford.edu/data/soc-Pokec.html)",
+  "sampleMethod": "Frontier-expansion connected sample from a fixed seed node, capped at 200000 relationships, streamed from the gzip without full in-memory adjacency",
+  "nodeCount": 80701,
+  "relationshipCount": 200000,
+  "generatedAt": "2026-08-24T19:23:26.999Z"
+}

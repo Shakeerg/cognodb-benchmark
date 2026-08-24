@@ -1,0 +1,338 @@
+[
+  {
+    "platform": "cognodb",
+    "workload": "traversal_1hop",
+    "stats": {
+      "n": 100,
+      "p50Ms": 239.12,
+      "p95Ms": 261.26,
+      "p99Ms": 263.73,
+      "minMs": 230.55,
+      "maxMs": 264.52,
+      "meanMs": 244.21,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "cognodb",
+    "workload": "traversal_2hop",
+    "stats": {
+      "n": 100,
+      "p50Ms": 236.25,
+      "p95Ms": 242.02,
+      "p99Ms": 259.97,
+      "minMs": 230.91,
+      "maxMs": 286.14,
+      "meanMs": 237.07,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "cognodb",
+    "workload": "traversal_3hop",
+    "stats": {
+      "n": 100,
+      "p50Ms": 236.29,
+      "p95Ms": 240.99,
+      "p99Ms": 242.56,
+      "minMs": 231.75,
+      "maxMs": 244.96,
+      "meanMs": 236.53,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "cognodb",
+    "workload": "point_lookup",
+    "stats": {
+      "n": 100,
+      "p50Ms": 255.25,
+      "p95Ms": 262.25,
+      "p99Ms": 263.58,
+      "minMs": 231.38,
+      "maxMs": 264.4,
+      "meanMs": 249.02,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "cognodb",
+    "workload": "filtered_lookup_indexed",
+    "stats": {
+      "n": 100,
+      "p50Ms": 236.11,
+      "p95Ms": 240.57,
+      "p99Ms": 251.2,
+      "minMs": 231.13,
+      "maxMs": 252.31,
+      "meanMs": 236.75,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "cognodb",
+    "workload": "aggregation_groupby",
+    "stats": {
+      "n": 100,
+      "p50Ms": 236.97,
+      "p95Ms": 254.54,
+      "p99Ms": 259.05,
+      "minMs": 231.25,
+      "maxMs": 261.26,
+      "meanMs": 238.31,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "neo4j_aura",
+    "workload": "traversal_1hop",
+    "stats": {
+      "n": 100,
+      "p50Ms": 87.47,
+      "p95Ms": 100.35,
+      "p99Ms": 107.15,
+      "minMs": 81.7,
+      "maxMs": 660.11,
+      "meanMs": 94.34,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "neo4j_aura",
+    "workload": "traversal_2hop",
+    "stats": {
+      "n": 100,
+      "p50Ms": 86.74,
+      "p95Ms": 98.64,
+      "p99Ms": 102.05,
+      "minMs": 81.86,
+      "maxMs": 668.03,
+      "meanMs": 93.62,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "neo4j_aura",
+    "workload": "traversal_3hop",
+    "stats": {
+      "n": 100,
+      "p50Ms": 86.75,
+      "p95Ms": 98.2,
+      "p99Ms": 207.01,
+      "minMs": 80.57,
+      "maxMs": 638.05,
+      "meanMs": 94.19,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "neo4j_aura",
+    "workload": "point_lookup",
+    "stats": {
+      "n": 100,
+      "p50Ms": 88.98,
+      "p95Ms": 105.91,
+      "p99Ms": 294.77,
+      "minMs": 81.57,
+      "maxMs": 664.38,
+      "meanMs": 98.19,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "neo4j_aura",
+    "workload": "filtered_lookup_indexed",
+    "stats": {
+      "n": 100,
+      "p50Ms": 85.42,
+      "p95Ms": 93.39,
+      "p99Ms": 104,
+      "minMs": 69.73,
+      "maxMs": 648.78,
+      "meanMs": 90.91,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "neo4j_aura",
+    "workload": "aggregation_groupby",
+    "stats": {
+      "n": 100,
+      "p50Ms": 76.37,
+      "p95Ms": 91.42,
+      "p99Ms": 94.35,
+      "minMs": 69.7,
+      "maxMs": 531.09,
+      "meanMs": 82.05,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "memgraph",
+    "workload": "traversal_1hop",
+    "stats": {
+      "n": 100,
+      "p50Ms": 4.3,
+      "p95Ms": 60.3,
+      "p99Ms": 69.1,
+      "minMs": 1.08,
+      "maxMs": 69.58,
+      "meanMs": 11.56,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "memgraph",
+    "workload": "traversal_2hop",
+    "stats": {
+      "n": 100,
+      "p50Ms": 1.89,
+      "p95Ms": 84.73,
+      "p99Ms": 177.43,
+      "minMs": 0.68,
+      "maxMs": 256.17,
+      "meanMs": 14.04,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "memgraph",
+    "workload": "traversal_3hop",
+    "stats": {
+      "n": 100,
+      "p50Ms": 1.19,
+      "p95Ms": 32.48,
+      "p99Ms": 65.21,
+      "minMs": 0.57,
+      "maxMs": 102.67,
+      "meanMs": 5.24,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "memgraph",
+    "workload": "point_lookup",
+    "stats": {
+      "n": 100,
+      "p50Ms": 0.94,
+      "p95Ms": 2.26,
+      "p99Ms": 51.36,
+      "minMs": 0.55,
+      "maxMs": 71.26,
+      "meanMs": 2.74,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "memgraph",
+    "workload": "filtered_lookup_indexed",
+    "stats": {
+      "n": 100,
+      "p50Ms": 20.69,
+      "p95Ms": 71.13,
+      "p99Ms": 74.48,
+      "minMs": 15.52,
+      "maxMs": 75.88,
+      "meanMs": 37.17,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "memgraph",
+    "workload": "aggregation_groupby",
+    "stats": {
+      "n": 100,
+      "p50Ms": 66.24,
+      "p95Ms": 100.3,
+      "p99Ms": 107.45,
+      "minMs": 18.02,
+      "maxMs": 188.69,
+      "meanMs": 52.86,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "arangodb",
+    "workload": "traversal_1hop",
+    "stats": {
+      "n": 100,
+      "p50Ms": 2.25,
+      "p95Ms": 4.12,
+      "p99Ms": 4.92,
+      "minMs": 1.16,
+      "maxMs": 6.36,
+      "meanMs": 2.37,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "arangodb",
+    "workload": "traversal_2hop",
+    "stats": {
+      "n": 100,
+      "p50Ms": 2,
+      "p95Ms": 3.2,
+      "p99Ms": 10.97,
+      "minMs": 1.22,
+      "maxMs": 17.9,
+      "meanMs": 2.36,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "arangodb",
+    "workload": "traversal_3hop",
+    "stats": {
+      "n": 100,
+      "p50Ms": 2.02,
+      "p95Ms": 12.14,
+      "p99Ms": 46.9,
+      "minMs": 1.23,
+      "maxMs": 106.5,
+      "meanMs": 4.85,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "arangodb",
+    "workload": "point_lookup",
+    "stats": {
+      "n": 100,
+      "p50Ms": 4.6,
+      "p95Ms": 6.6,
+      "p99Ms": 8.61,
+      "minMs": 3.36,
+      "maxMs": 12.76,
+      "meanMs": 4.79,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "arangodb",
+    "workload": "filtered_lookup_indexed",
+    "stats": {
+      "n": 100,
+      "p50Ms": 3.16,
+      "p95Ms": 5.44,
+      "p99Ms": 8.54,
+      "minMs": 2.21,
+      "maxMs": 12.63,
+      "meanMs": 3.54,
+      "errorCount": 0
+    }
+  },
+  {
+    "platform": "arangodb",
+    "workload": "aggregation_groupby",
+    "stats": {
+      "n": 100,
+      "p50Ms": 20.43,
+      "p95Ms": 77.07,
+      "p99Ms": 80.96,
+      "minMs": 12.99,
+      "maxMs": 81.31,
+      "meanMs": 39.15,
+      "errorCount": 0
+    }
+  }
+]
